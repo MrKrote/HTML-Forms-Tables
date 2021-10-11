@@ -49,3 +49,36 @@
     </tr>
 </table>
 ```
+
+
+**Rowspan** - Sorköz [két sorba teszi]
+
+```<th rowspan="2">Animal</th>```
+
+
+**Colspan** - Oszlopköz [két oszlopra osztja]
+
+```<th colspan="2">Average Mass</th>```
+
+&nbsp;
+
+> HTML
+> 
+> The Form Element - ```<form></form>```
+
+- The <form> element is a container that doesn't have any visual impact. We then fill the form with inputs,buttons,checkboxes etc..
+
+```<form action=""></form>```
+  
+- The action attribute specifies WHERE the data should be sent.
+
+- The method attribute specifies WHICH HTTP method should be used. ( later...)
+  
+&nbsp;
+  
+> HTML
+> 
+> The Input Element: - ```<input>```
+  
+
+  
