@@ -80,5 +80,46 @@
 > 
 > The Input Element: - ```<input>```
   
+- We have 20+ possible types of inputs ( color pickers , checkboxes etc..)
 
+```
+<form action="">
+    <input type="text" placeholder="username">
+    <input type="password" placeholder="password">
+    <input type="color">
+    <input type="number" placeholder="enter a number">
+</form>
+```
+  
+&nbsp;
+  
+> HTML
+> 
+> The Label Element - ```<label></label>```
+  
+- represents a caption for an item in a user interface
+
+- label has a connection to to input element
+
+- It makes the input clickable
+  
+```
+<form action="">
+    <p>
+        <label for="username">Enter a Username:</label>
+        <input id="username" type="text" placeholder="username">
+    </p>
+    <p>
+        <label for="password">Enter a Password:</label>
+        <input id="password" type="password" placeholder="password">
+    </p>
+    <p>
+        <label for="color">Pick a Color:</label>
+        <input id="color" type="color">
+    </p>
+</form>
+```
+  
+The **FOR** attribute of the label and a **ID** attribute of the input should be the **SAME**!
+  
   
